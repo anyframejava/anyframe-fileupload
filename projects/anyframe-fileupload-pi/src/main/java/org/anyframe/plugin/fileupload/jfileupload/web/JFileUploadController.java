@@ -117,7 +117,7 @@ public class JFileUploadController {
 		}
 
 		JSONObject jsonResult = new JSONObject();
-		response.setContentType("text/JSON");
+		response.setContentType("text/plain");
 		response.setCharacterEncoding("utf-8");
 		
 		try {

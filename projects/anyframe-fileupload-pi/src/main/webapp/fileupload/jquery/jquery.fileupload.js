@@ -131,8 +131,8 @@
 			async : true,
 			url : FILEUPLOAD.CONTEXT+"/fileuploadJFileUpload.do?method=upload",
 			success : function(data) {
-				var dataObj = $.parseJSON(data);
-					
+                var extractJson = data.replace(/<[^{}]*>/g, ""),
+				    dataObj = $.parseJSON(extractJson);
 			},
 			error : function() {
 				

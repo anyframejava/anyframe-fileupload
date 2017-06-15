@@ -4,7 +4,7 @@
     <groupId>org.anyframe.plugin</groupId>
     <artifactId>anyframe-fileupload-pi</artifactId>
     <packaging>war</packaging>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <name>fileupload</name>
     <dependencies>
     
@@ -40,7 +40,7 @@
         <dependency>
             <groupId>org.anyframe</groupId>
             <artifactId>anyframe-core</artifactId>
-            <version>1.5.1</version>
+            <version>1.5.2</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

@@ -20,10 +20,9 @@
 	</bean>
 
 	<bean id="exceptionResolver"
-		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		class="org.anyframe.plugin.common.MovieFinderExceptionResolver">
 		<property name="defaultErrorView" value="forward:/sample/common/error.jsp" />
 	</bean>
-	
 
    <bean id="jstlViewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
@@ -33,7 +32,7 @@
 
 	<bean id="localeResolver"
 		class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
-		<property name="defaultLocale" value="ko_KR" />
+		<property name="defaultLocale" value="en_US" />
 	</bean>
 
 </beans>

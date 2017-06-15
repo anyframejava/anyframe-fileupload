@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<plugin name="fileupload" description="FileUpload plugin consists of sample code that provides functionality Multipart Request handling within Spring using the Commons Fileupload.">
+<plugin name="fileupload">
   <groupId>org.anyframe.plugin</groupId>
   <artifactId>anyframe-fileupload-pi</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0.RC1</version>
   <dependent-plugins>
     <dependent-plugin name="core" version="2.0.0&gt;*"/>
   </dependent-plugins>

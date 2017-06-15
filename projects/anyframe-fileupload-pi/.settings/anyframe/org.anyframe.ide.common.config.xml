@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<anyframe>
+    <pjtHome>D:\Project\Framework\SVN\anyframe_ui\anyframe-fileupload-pi</pjtHome>
+    <package>org.anyframe.plugin</package>
+    <path>
+        <template>D:\Project\Framework\SVN\anyframe_ui\anyframe-fileupload-pi\.settings\anyframe\templates</template>
+        <jdbcdrivers>D:\Project\Framework\SVN\anyframe_ui\anyframe-fileupload-pi\.settings\anyframe</jdbcdrivers>
+        <databases>D:\Project\Framework\SVN\anyframe_ui\anyframe-fileupload-pi\.settings\anyframe</databases>
+    </path>
+</anyframe>

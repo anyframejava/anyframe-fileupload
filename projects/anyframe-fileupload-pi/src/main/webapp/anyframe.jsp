@@ -1,10 +1,11 @@
+<%@ page language="java" errorPage="/sample/common/error.jsp" pageEncoding="UTF-8" contentType="text/html;charset=utf-8" %>
 <%@ include file="/sample/common/top.jsp"%>
 	</div>
     <hr />
   	<div id="container">
     	<div class="main_greeting">
         	<dl>
-                <dt>Welcome to Anyframe 5.2.0-SANPSHOT</dt>
+                <dt>Welcome to Anyframe 5.5.1</dt>
                 <dd>Congratulations! Anyframe application has been successfully installed. Anyframe is an open source project and application framework that provides basic architecture, common technical services, templates to help you develop web applications on the Java platform quickly and efficiently.</dd>
             </dl>
         </div>
@@ -20,11 +21,21 @@
             	<tr>
                 	<th>Installed Plugins</th>
                     <td>
-                        <ul>
-                        <!--Add new menu here-->
-                        	<!--fileupload-menu-START-->
-                            <li><a href="<c:url value='/fileUploadMovieFinder.do?method=list'/>">Fileupload 1.0.3</a></li>
-                        	<!--fileupload-menu-END-->
+                    	<ul>
+                           
+                            <!--Add new configuration here-->
+                            <!--fileupload-configuration-START-->
+                             <li><a href="<c:url value='/fileuploadJFileUpload.do?method=view'/>">FileUpload 1.1.0</a></li>
+                              <!--fileupload-configuration-END-->
+<!--logging-configuration-START-->
+<li>Logging 1.0.3</li>
+<!--logging-configuration-END-->
+<!--spring-configuration-START-->
+<li>Spring 1.0.3</li>
+<!--spring-configuration-END-->
+<!--datasource-configuration-START-->
+<li>Datasource 1.0.3</li>
+<!--datasource-configuration-END-->
                         </ul>
                     </td>
                 </tr>
@@ -43,9 +54,7 @@
                 	<th>Generated CRUD Codes</th>
                     <td>
                     	<ul>
-                            <li>
                             <!--Add new crud generation menu here-->
-                            </li>
                         </ul>
                     </td>
                 </tr>
